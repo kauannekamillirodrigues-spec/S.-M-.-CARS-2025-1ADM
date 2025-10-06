@@ -61,3 +61,31 @@
     text-align: center;
     margin: 40px 0;
 }
+
+.sobre{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 20px 0;
+     gap:5px;
+}
+
+.sobre div{
+    width: 50%;
+    border-radius: 0px 20px 0 20px;
+    box-shadow: 3px 3px 10px  ;
+}
+. sobre p{
+    font-size: 24px
+    color: var(--esmeralda)
+}
+
+footer{
+    background-color: var(---azul-forte);
+    height: 100px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+color: var(esmeralda)
+font-size: 18px
+}
