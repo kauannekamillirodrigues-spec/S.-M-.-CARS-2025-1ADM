@@ -7,17 +7,17 @@
     --azul-bebe: #a3cef1ff;
     --cinza: #8b8c89ff;
     --preto: #000000;
-    --texto:"DM Serif Display", serif;
+    --texto: "DM Serif Display", serif;
     --titulo: "Changa One", sans-serif;
 }
 
-body{
+body {
     background-color: var(--azul-claro);
     font-family: var(--texto);
-    margin:0;
+    margin: 0;
 }
 
-header{
+header {
     background-color: var(--azul);
     display: flex;
     justify-content: space-around;
@@ -25,12 +25,13 @@ header{
     align-items: center;
 }
 
-.img-logo{
-  width: 15%;
-  border-radius: 60%;
+.img-logo {
+    width: 15%;
+    border-radius: 60%;
 }
-.menu{
-    display:flex;
+
+.menu {
+    display: flex;
     list-style: none;
     gap: 30px;
     font-size: 20px;
@@ -38,50 +39,50 @@ header{
     text-transform: uppercase;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: var(--branco);
 }
 
-.menu a:hover{
+.menu a:hover {
     color: var(--preto);
     transition: 0.5s;
 }
 
-.capa{
-   width: 100%;
-   height: auto;
-   display: flex; 
-   justify-content: center;
-   align-items: center;
-   overflow: hidden;
-}
-
-.capa img{
+.capa {
     width: 100%;
     height: auto;
-    display:block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.capa img {
+    width: 100%;
+    height: auto;
+    display: block;
     object-fit: cover;
 }
 
-.apresentacao{
+.apresentacao {
     font-family: var(--titulo);
     text-align: center;
     margin: 40px 0;
 }
 
-.apresentacao h2{
+.apresentacao h2 {
     color: var(--branco);
     font-size: 50px;
 }
 
-.apresentacao p{
+.apresentacao p {
     color: var(--preto);
     font-size: 25px;
     font-family: var(--texto);
 }
 
-.sobre{
+.sobre {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,30 +91,30 @@ header{
 
 }
 
-.sobre div{
+.sobre div {
     width: 40%;
     text-align: center;
 }
 
-.sobre-img img{
+.sobre-img img {
     width: 50%;
     border-radius: 0px 20px 0px 20px;
     box-shadow: 3px 3px 10px #000000;
 }
 
-.sobre h2{
+.sobre h2 {
     font-family: var(--titulo);
     font-size: 40px;
     color: var(--preto);
     margin-bottom: 15px;
 }
 
-.sobre p{
+.sobre p {
     font-size: 24px;
     color: var(--preto);
 }
 
-footer{
+footer {
     background-color: var(--azul);
     height: 100px;
     display: flex;
@@ -121,4 +122,38 @@ footer{
     justify-content: center;
     color: var(--azul-claro);
     font-size: 18px;
+}
+
+/* produtos */
+
+.produtos {
+    padding: 40px 0;
+    text-align: center;
+
+}
+
+.produtos h2 {
+    font-family: var(--titulo);
+    font-size: 40px;
+    color: var(--branco);
+    margin: 40px 0;
+}
+
+.lista-produtos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.produto {
+    background-color: var(--azul-bebe);
+    width: 27%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 10px;
 }
